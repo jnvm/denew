@@ -8,7 +8,7 @@ Does reading it set off an internal monologue about how presumptuous this glorif
 
 I thought so.
 
-This module wraps the call to all native `new`-ables (like `Array`, `Map`, `Set`, etc) to internally do it for you so you never have to use the keyword again, and can invoke them like any other factory function.
+This module wraps the call to all native `new`-ables (like `Array`, `Map`, `Set`, etc in the browser, node, or a web worker) to internally do it for you so you never have to use the keyword again, and can invoke them like any other factory function.
 
 #### so instead of
 
